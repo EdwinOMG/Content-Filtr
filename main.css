@@ -1,0 +1,66 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.filter-section {
+    margin-bottom: 30px;
+}
+
+.filter-btn {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    background-color: #333;
+    transition: background-color 0.3s;
+    font-size: 20px;
+}
+
+.filter-btn:hover {
+    background-color: #555;
+}
+
+.content-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #888;
+    border-radius: 6px;
+    font-size: 22px;
+}
+
+.item.blue {
+    color: blue;
+}
+
+.item.yellow {
+    color: yellow;
+}
+
+.items .item {
+    display: none;
+}
